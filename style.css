@@ -103,8 +103,6 @@ button a{
     text-align: center;
 }
 
-
-
 .main-nav-list{
     display: flex;
     flex-direction: column;
@@ -274,7 +272,7 @@ main{
   Media Queries
 ==================================== */
 
-@media (min-width: 769px) {
+@media (min-width: 800px) {
     .main-nav-list{
         flex-direction: row;
         justify-content: center;
