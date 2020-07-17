@@ -21,6 +21,10 @@ p {
 	margin-bottom: 1.8em;
 }
 
+.hide{
+    display: none;
+}
+
 h2,
 h3,
 a {
