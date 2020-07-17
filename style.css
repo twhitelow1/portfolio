@@ -56,6 +56,8 @@ footer{
 }
 figcaption{
     text-align: center;
+    margin-bottom: 30px;
+    max-height: 70px;
 }
 figure{
     display: flex;
@@ -166,13 +168,13 @@ main{
 
 .section h2{
     font-size: 2.5em;
-    border-bottom:3px solid green;
+    border-bottom:0px solid green;
     color: green;
     font-family: 'Source Code Pro', monospace;
 }
 
 .section:nth-child(even) h2{
-    border-bottom:3px solid white;
+    border-bottom:0px solid white;
     color: whitesmoke;
     ;
 }
@@ -275,7 +277,7 @@ main{
   Media Queries
 ==================================== */
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 776px) {
     .main-nav-list{
         flex-direction: row;
         justify-content: center;
@@ -305,7 +307,6 @@ main{
     .projects-list{
         flex-direction: row;
         flex-wrap: wrap;
-        flex: 1 200px;
         justify-content: center;
     }
     .name{
@@ -336,10 +337,6 @@ main{
     }
     .banner-text{
         align-self: center;
-    }
-
-    .projects-list{
-        flex: 0 150px;
     }
     
     .project-img{
