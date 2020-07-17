@@ -75,7 +75,7 @@ form{
 
 
 button{
-    background-color: darkgreen;
+    background-color: green;
     border: 0px solid rgb(24, 255, 3);
     margin: .5em;
     padding: .5em 1em;
@@ -83,7 +83,7 @@ button{
 }
 
 button a{
-    color: lightgreen;
+    color: white;
 }
 
 
