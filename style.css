@@ -121,6 +121,8 @@ button a{
 
 .main-nav-list li a{
     color: green;
+    display: flex;
+    justify-content: center;
 }
 
 
