@@ -154,7 +154,7 @@ main{
     flex-direction: column;
 }
 .banner-text{
-    padding-left: 2em;
+    padding: 1em;
     font-size: 1em;
 }
 
@@ -170,7 +170,6 @@ main{
     margin-bottom: 25px;
 }
 .section{
-    min-height: 200px;
     padding: 10px 20px;
     display: flex;
     flex-wrap: wrap;
@@ -204,17 +203,25 @@ main{
     display: flex;
     color: white;
     flex-wrap: wrap;
+    align-items: center;
 }
 .tech li{
     flex: 1 30%;
     justify-content: space-between;
-    padding: .5em;
+    padding: 1em 0;
     background-color: white;
+    vertical-align: middle;
     color: green;
     margin: .5em;
     text-align: center;
-    font-weight: 700;
+    font-size: 1.2em;
+    font-weight: 900;
     letter-spacing: .2rem;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
 }
 
 .tech-img{
@@ -323,7 +330,7 @@ main{
         justify-content: center;
     }
     main{
-        width: 75%;
+        width: 80%;
         margin: auto;
     }
     .section{
@@ -339,8 +346,8 @@ main{
     }
 
     .banner-text{
-        padding-left: 5em;
-        padding-right: 5em;
+        padding-left: 1.5em;
+        padding-right: 1em;
         font-size: 1rem;
     }
 
@@ -378,6 +385,7 @@ main{
     }
     .banner-text{
         align-self: center;
+        font-size: 1.2em;
     }
     
     .project-img{
