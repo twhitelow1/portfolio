@@ -294,10 +294,17 @@ main{
     justify-content: space-evenly;
 }
 
+.connect{
+    display: flex;
+    justify-content: center;
+}
+
 .connections-list{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
+
 }
 .connections-img{
     width: auto;
