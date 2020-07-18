@@ -183,7 +183,10 @@ main{
 .section:nth-child(odd){
     background-color: whitesmoke;
 }
+.section:nth-child(even) h2{
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, .4);
 
+}
 .section h2{
     font-size: 2.5em;
     border-bottom:0px solid green;
@@ -206,10 +209,11 @@ main{
     flex: 1 30%;
     justify-content: space-between;
     padding: .5em;
-    background-color: darkgreen;
+    background-color: white;
+    color: green;
     margin: .5em;
     text-align: center;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: .2rem;
 }
 
@@ -306,7 +310,7 @@ main{
   Media Queries
 ==================================== */
 
-@media screen and (min-width: 776px) {
+@media screen and (min-width: 768px) {
     .main-nav-list{
         flex-direction: row;
         justify-content: center;
@@ -346,6 +350,7 @@ main{
 
 }
 @media (min-width: 900px) {
+    
     .projects-list li{
         width:50%;
     }
@@ -380,6 +385,19 @@ main{
     .project-img{
         width: 100%;
     
+    }
+}
+
+@media (max-width: 425px) {
+    .section h2{
+        font-size: 2em;
+    }
+    .main-nav li{
+        font-size: 1.25em;
+        padding: auto;
+    }
+    .name{
+        font-size: 1.5em;
     }
 }
 
