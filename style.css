@@ -106,6 +106,7 @@ button a{
 	font-size: 1.75 em;
 	font-weight: 800;
     padding-left: 1em;
+    text-transform: uppercase;
     font-family: 'Source Code Pro', monospace;
 
 }
