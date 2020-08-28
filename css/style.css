@@ -1058,21 +1058,21 @@ main#main {
 }
 
 body.fullscreendark #main>section#home {
-  background-image: url('http://via.placeholder.com/1920x1080');
+  background-image: url('img/codebackground.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 body.fullscreenlight #main>section#home {
-  background-image: url('http://via.placeholder.com/1920x1080');
+  background-image: url('img/codebackground.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 body.fullscreenbgimage #main>section#home {
-  background-image: url('http://via.placeholder.com/1920x1080');
+  background-image: url('img/codebackground.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1091,7 +1091,7 @@ body.fullscreenbgimage #main>section#home:after {
 }
 
 body.bgimage #main>section#home {
-  background-image: url('http://via.placeholder.com/1920x1080');
+  background-image: url('img/codebackground.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -2040,7 +2040,7 @@ body.blog {
 body.blog .container-fluid.page-title {
   background-repeat: no-repeat;
   background-position: center top;
-  background-image: url('http://via.placeholder.com/1920x624');
+  background-image: url('img/codebackground.jpg');
   padding: 0;
   margin-bottom: 60px;
 }
