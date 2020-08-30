@@ -1058,21 +1058,21 @@ main#main {
 }
 
 body.fullscreendark #main>section#home {
-  background-image: url('img/codebackground.jpg');
+  /* background-image: url('img/codebackground.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 body.fullscreenlight #main>section#home {
-  background-image: url('img/codebackground.jpg');
+  /* background-image: url('img/codebackground.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 body.fullscreenbgimage #main>section#home {
-  background-image: url('img/codebackground.jpg');
+  /* background-image: url('img/codebackground.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -2040,7 +2040,8 @@ body.blog {
 body.blog .container-fluid.page-title {
   background-repeat: no-repeat;
   background-position: center top;
-  background-image: url('img/codebackground.jpg');
+  backgournd-color: grey;
+  /* background-image: url('img/codebackground.jpg'); */
   padding: 0;
   margin-bottom: 60px;
 }
