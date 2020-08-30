@@ -1091,8 +1091,9 @@ body.fullscreenbgimage #main>section#home:after {
 }
 
 body.bgimage #main>section#home {
-  background: url('../img/code-background.jpg') cover no-repeat,
-    rgba(0, 0, 0, .1);
+  background: url('../img/code-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center center;
 }
 
