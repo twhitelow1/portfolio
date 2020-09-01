@@ -1113,7 +1113,7 @@ body.bgvideo #main>section#home:after {
   position: fixed;
   border-radius: 50%;
   max-width: 320px;
-  left: calc(50vw - 360px);
+  left: calc(40vw - 400px);
   top: calc(50vh - 160px);
   border: 10px solid rgba(255, 255, 255, .1);
   z-index: 1;
@@ -1205,8 +1205,8 @@ div.container.page-title {
   height: 100%;
   width: 100%;
   display: table;
-  margin-left: 50vw;
-  max-width: 550px;
+  margin-left: 40vw;
+  max-width: 600px;
 }
 
 .main-text {

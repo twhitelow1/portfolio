@@ -102,6 +102,20 @@
 		});
 
 		/* ----------------------------------------------------------- */
+		/*  LINK TO CONTACT SECTION
+		/* ----------------------------------------------------------- */
+
+		$(".link-portfolio-three").on("click", function (e) {
+			var tabNum = $(this).index();
+			var nthChild = tabNum + 3;
+			$("#main > section.active").removeClass("active");
+			$("#main > section:nth-child(" + nthChild + ")").addClass("active");
+			$(".stretchy-nav li:nth-child(2)").removeClass("active");
+			$(".stretchy-nav li:nth-child(4)").addClass("active");
+			e.preventDefault();
+		});
+
+		/* ----------------------------------------------------------- */
 		/*  AJAX CONTACT FORM
 		/* ----------------------------------------------------------- */
 
