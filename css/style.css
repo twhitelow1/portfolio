@@ -117,7 +117,7 @@ h6 {
   font-size: 15px;
   text-transform: uppercase;
   color: #fff;
-  padding: 0 33px;
+  padding: 0px 33px;
   outline: none !important;
   overflow: hidden;
   display: inline-block;
@@ -125,6 +125,7 @@ h6 {
   font-family: 'Poppins', sans-serif;
   letter-spacing: .5px;
   border: 0;
+  margin: 5px 0;
 }
 
 .btn span {
@@ -1701,6 +1702,7 @@ body.light .personal-info ul h6 {
 
 .project-info-container .projects-info ul.project-details {
   margin: 16px 0 12px;
+
 }
 
 .project-info-container .projects-info ul.project-details li {

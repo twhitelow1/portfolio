@@ -82,7 +82,7 @@
 			var nthChild = tabNum + 3;
 			$("#main > section.active").removeClass("active");
 			$("#main > section:nth-child(" + nthChild + ")").addClass("active");
-			$(".stretchy-nav li:first-child").removeClass("active");
+			$(".stretchy-nav li:nth-child(1)").removeClass("active");
 			$(".stretchy-nav li:nth-child(2)").addClass("active");
 			e.preventDefault();
 		});
@@ -96,7 +96,7 @@
 			var nthChild = tabNum + 3;
 			$("#main > section.active").removeClass("active");
 			$("#main > section:nth-child(" + nthChild + ")").addClass("active");
-			$(".stretchy-nav li:nth-child(1)").removeClass("active");
+			$(".stretchy-nav li:nth-child(2)").removeClass("active");
 			$(".stretchy-nav li:nth-child(3)").addClass("active");
 			e.preventDefault();
 		});
@@ -110,7 +110,7 @@
 			var nthChild = tabNum + 3;
 			$("#main > section.active").removeClass("active");
 			$("#main > section:nth-child(" + nthChild + ")").addClass("active");
-			$(".stretchy-nav li:nth-child(2)").removeClass("active");
+			$(".stretchy-nav li:nth-child(3)").removeClass("active");
 			$(".stretchy-nav li:nth-child(4)").addClass("active");
 			e.preventDefault();
 		});
@@ -174,7 +174,7 @@
 
 		function stop_videos() {
 			var video = document.getElementById("video");
-			if (video !== null || video !== undefined) {
+			if (video) {
 				if (video.paused !== true && video.ended !== true) {
 					video.pause();
 				}
