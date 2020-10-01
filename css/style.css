@@ -1446,6 +1446,15 @@ body.light .personal-info ul h6 {
   margin: 0;
   line-height: 28px;
 }
+.card-body-list{
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin: 0;
+  line-height: 28px;
+  list-style: circle;
+  padding-left: 2em;
+}
 
 .resume-items .item {
   position: relative;
